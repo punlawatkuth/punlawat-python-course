@@ -77,19 +77,19 @@ print("a =", a, "b =", b, "c =", c)
 # Complete the following assignments:
 
 # String variable containing your favorite color
-favorite_color = 
+favorite_color = "blue"
 
 # Integer variable with the current year
-current_year = 
+current_year = 2077
 
 # Float variable with your favorite number (with decimal)
-favorite_number = 
+favorite_number = 23.4
 
 # Boolean variable indicating if you like pizza
-likes_pizza = 
+likes_pizza = True
 
 # Print all variables with descriptive messages
-print("My favorite color is:", favorite_color)
-print("The current year is:", current_year)
-print("My favorite number is:", favorite_number)
-print("Do I like pizza?", likes_pizza)
+print("My favorite color is:", type(favorite_color), favorite_color)
+print("The current year is:", type(current_year), current_year)
+print("My favorite number is:", type(favorite_number), favorite_number)
+print("Do I like pizza?", type(likes_pizza), likes_pizza)

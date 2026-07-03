@@ -5,6 +5,7 @@ user_name = input("What is your name? ")
 print("Hello,", user_name, "!")
 print("Nice to meet you,", user_name)
 
+"""
 # Exercise 2: Input with Numbers
 # Note: input() always returns a string, so we need to convert to numbers
 print("\n=== Exercise 2: Working with Numbers ===")
@@ -116,3 +117,4 @@ length = float(input("Enter rectangle length: "))
 width = float(input("Enter rectangle width: "))
 area = length * width
 print("The area of a rectangle with length", length, "and width", width, "is", area)
+"""
