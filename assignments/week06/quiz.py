@@ -29,8 +29,16 @@ return string ที่จัดรูปแบบข้อมูลผู้ใ
 """
 
 def create_user_profile(username, age=18, premium=False):
-    # Your Problem 3 solution
-    pass
+    usertype = "standard"
+    if premium==True:
+        usertype = "premium"
+    return f"{username} (age: {age}) - {usertype}"
+print("Created user profiles: ")
+print(create_user_profile("User", 20, True))
+print(create_user_profile("Someone", 30 ))
+print(create_user_profile("zenith"))
+
+
 
 """ เขียน function ชื่อ analyze_scores ที่มีคุณสมบัติดังนี้:
 
