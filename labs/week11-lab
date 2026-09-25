@@ -1,0 +1,2 @@
+""" oop has  a constructor and a method a constructor something that is needed to create after adressing class ---your class here--- then "def __init__(self,parameters here)"
+constructor is something of a parameters Eg. self.name, self.clone self.carname. to actually construct those you also have to do something like self.name = name, self.clone = clone, self.carname = carname, a method is something of a FUNCTION inside the oop thus why it is called method Eg. def carname(use(carname)) then anything a function would do, now how do you call it you can call it by """
