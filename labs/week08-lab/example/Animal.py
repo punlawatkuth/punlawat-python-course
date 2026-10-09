@@ -51,3 +51,13 @@ dog.fetch()      # Dog-specific method
 
 cat.make_sound() # Overridden method
 cat.climb_tree() # Cat-specific method
+#overridding method uses the same method name as parent class as a child class
+#overloading method uses the same name method BUT different parameters
+#this code is about inheritance from the parent class (ANIMAL)
+#SUPER() means using parent constructor
+"""expected results
+max is eating
+max barks: woof!
+max is fetching the ball
+whiskers meows: Meow!
+whiskers is climbing a tree"""

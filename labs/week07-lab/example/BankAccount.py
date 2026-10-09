@@ -44,3 +44,5 @@ print(account.deposit(500))
 print(account.withdraw(200))
 print("\nTransaction History:")
 print(account.get_transaction_history())
+# expected output
+"""current balance$ : 1000"""
